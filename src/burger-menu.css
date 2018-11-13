@@ -1,0 +1,20 @@
+.hamburger{
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+  z-index: 99;
+}
+
+.hamburger .line{
+  width: 30px;
+  height: 7px;
+  background-color: #fff;
+  border: none;
+  display: block;
+  margin: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover{
+  cursor: pointer;
+}
