@@ -1,18 +1,30 @@
 import React, { Component } from 'react';
 
-import BurgerMenu from './hamburger-menu';
-
 class Header extends Component {
   render() {
+    let logoNameClass, professionClass, noteClass;
+    if (this.props.clicked === true) {
+      logoNameClass = 'hidden';
+      professionClass = 'profession';
+      noteClass = 'note';
+    } else {
+      logoNameClass = 'logo-name';
+      professionClass = 'hidden';
+      noteClass = 'hidden';
+    }
     return (
       <div className="header">
-        <div>
+        <div className={logoNameClass}>
           <img className="logo" src={require('../JR-logo.svg')} alt="logo" />
-          <p>Jonathan Riggs</p>
+          <p className="name">Jonathan Riggs</p>
         </div>
-        <p>Full Stack Developer</p>
-
-        <BurgerMenu />
+        <p className={professionClass}>Full Stack Developer</p>
+        <p className={noteClass}>CHECK ME OUT!!!</p>
+        <button className="hamburger" id="hamburger" onClick={() => this.props.toggleClick()}>
+          <span className="line" />
+          <span className="line" />
+          <span className="line" />
+        </button>
       </div>
     );
   }

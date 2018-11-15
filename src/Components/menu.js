@@ -2,11 +2,23 @@ import React, { Component } from 'react';
 
 class Menu extends Component {
   render() {
+    let menuClass;
+    if (this.props.clicked === true) {
+      menuClass = 'menu-container';
+    } else {
+      menuClass = 'hidden';
+    }
     return (
-      <nav className="menu-container">
+      <nav className={menuClass}>
         <ul className="menu">
           <li className="menu-title">
             <span className="menu-a">Job Seeker</span>
+          </li>
+
+          <li className="menu-li">
+            <a className="menu-a" target="_blank" rel="noopener noreferrer" href="https://www.JonathanRiggs.me">
+              <span>Portfolio</span>
+            </a>
           </li>
           <li className="menu-li">
             <a className="menu-a" target="_blank" rel="noopener noreferrer" href="https://github.com/BuddhaL1T3">
@@ -23,11 +35,7 @@ class Menu extends Component {
               <span>LinkedIn</span>
             </a>
           </li>
-          <li className="menu-li">
-            <a className="menu-a" target="_blank" rel="noopener noreferrer" href="https://www.JonathanRiggs.me">
-              <span>Portfolio</span>
-            </a>
-          </li>
+
           <li className="menu-li">
             <a className="menu-a" href="mailto:jmriggs75@gmail.com">
               <span>Email</span>
