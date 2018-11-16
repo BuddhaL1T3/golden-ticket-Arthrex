@@ -39,6 +39,7 @@ class Footer extends Component {
             </a>
           </div>
         </section>
+        <p>&#169; 2018 Jonathan Riggs</p>
       </footer>
     );
   }

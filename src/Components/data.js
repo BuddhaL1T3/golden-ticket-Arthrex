@@ -28,15 +28,15 @@ class Data extends Component {
             the exceptional quality of work produced by Arthrex – not just from clean apps and polished websites, but
             from ALL aspects of the company. From community involvement though Arthrex Foundation, to your belief in
             continuous education for both surgeons and your own staff. Not to mention, you have been recognized many
-            times by Best Companies to Work For(R) for your exceptional benefits and extraordinary culture. Putting my
-            skills to work is only one piece of the pie. I am looking for a great culture fit as well as a great family
-            oriented company. After doing some research and speaking with several of your current employees it is more
-            than apparent that Arthrex is exactly the company I would love to grow with.
+            times by Best Companies to Work For&#174; for your exceptional benefits and extraordinary culture. Putting
+            my skills to work is only one piece of the pie. I am looking for a great culture fit as well as a great
+            family oriented company. After doing some research and speaking with several of your current employees it is
+            more than apparent that Arthrex is exactly the company I would love to grow with.
           </p>
           <p>
             I know the importance of what Arthrex does because, in my previous employment in a Continued Care Retirement
             Community, I have seen time and time again the impact Arthrex has had on the lives of so many. You really do
-            Help Surgeons Treat Their Patients Better(TM). Secondly, as a recent graduate of Thinkful's full time
+            Help Surgeons Treat Their Patients Better&#8482;. Secondly, as a recent graduate of Thinkful's full time
             Engineering Immersion program, I've acquired working experience through planning, designing and executing
             full stack apps and turning thoughts into tangable working applications! This experience was gained by
             building front end web clients with JavaScript, HTML, CSS, and React/Redux. As well as by running web
