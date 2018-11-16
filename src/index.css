@@ -67,10 +67,12 @@ body {
   cursor: pointer;
 }
 
+
 /* //////////////////////////////////////////////////////////////// */
 
 .menu-container {
   margin: 5px 10px;
+  transition: top 600ms;
 }
 
 .menu {
@@ -101,6 +103,15 @@ body {
   border: 1px solid #efefef;
   padding-bottom: 0;
 }
+
+
+.menu ul {
+  position:absolute;
+  left:0;
+  top:36px;
+  z-index:1;
+}
+
 
 /* //////////////////////////////////////////////////////////////// */
 

@@ -16,7 +16,7 @@ class Menu extends Component {
           </li>
 
           <li className="menu-li">
-            <a className="menu-a" target="_blank" rel="noopener noreferrer" href="https://www.JonathanRiggs.me">
+            <a className="menu-a" target="_blank" rel="noopener noreferrer" href="http://jonathan_riggs.surge.sh/">
               <span>Portfolio</span>
             </a>
           </li>
@@ -37,7 +37,7 @@ class Menu extends Component {
           </li>
 
           <li className="menu-li">
-            <a className="menu-a" href="mailto:jmriggs75@gmail.com">
+            <a className="menu-a" href="mailto:jmriggs75@gmail.com?subject=Arthrex Application Response!">
               <span>Email</span>
             </a>
           </li>
